@@ -148,18 +148,27 @@ def check():
         s = state.setdefault(lid, {"net": None, "status": None, "sent": [], "live": False})
         name = l["name"]
 
+        rearm = False
         if s["net"] is None:
+            rearm = True
             notify(f"New SpaceX launch: {name}", details(l), click=link)
         else:
             if abs((net - parse_time(s["net"])).total_seconds()) > 300:
+                rearm = True        # re-arm countdown reminders for the new time
+                s["live"] = False
                 notify(f"Time changed: {name}",
                        f"New time: {fmt_ist(net)}\nWas: {fmt_ist(parse_time(s['net']))}\n"
                        f"Status: {status}\nWatch: {link}", click=link)
             if status != s["status"]:
                 notify(f"Status: {status} - {name}", details(l), click=link, priority="high")
 
+        if rearm:
+            # the email we just sent already covers every window we're inside;
+            # only reminders for windows still ahead should fire later
+            s["sent"] = [lbl for thr, lbl in REMINDERS if mins <= thr]
+
         # countdown reminders (mark skipped larger ones as sent so we don't spam)
-        for threshold, label in REMINDERS:
+        for threshold, label in sorted(REMINDERS):  # smallest window first
             if 0 < mins <= threshold and label not in s["sent"]:
                 for t2, l2 in REMINDERS:
                     if t2 >= threshold and l2 not in s["sent"]:
