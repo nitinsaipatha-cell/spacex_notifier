@@ -1,14 +1,4 @@
 {
- "f6af629d-39b5-4f86-bc0c-f8776444a858": {
-  "net": "2026-10-23T22:48:44Z",
-  "status": "Launch Successful",
-  "sent": [
-   "24h",
-   "1h",
-   "10min"
-  ],
-  "live": true
- },
  "e2886a96-5ce9-4f45-872f-4e25a00be837": {
   "net": "2026-10-27T07:25:51Z",
   "status": "Launch in Flight",
@@ -20,15 +10,30 @@
   "live": false
  },
  "57ce0a39-d035-4f16-a418-bd6108f78199": {
-  "net": "2026-10-30T04:02:00Z",
+  "net": "2026-10-31T03:48:00Z",
   "status": "Go for Launch",
   "sent": [],
-  "live": false
+  "live": false,
+  "nets": {
+   "ll2": "2026-10-31T03:48:00Z"
+  },
+  "seq": 1,
+  "uid": "57ce0a39-d035-4f16-a418-bd6108f78199"
  },
  "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae": {
-  "net": "2026-11-02T01:56:00Z",
+  "net": "2026-11-03T01:42:00Z",
   "status": "Go for Launch",
   "sent": [],
-  "live": false
+  "live": false,
+  "nets": {
+   "ll2": "2026-11-03T01:42:00Z"
+  },
+  "seq": 1,
+  "uid": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae"
+ },
+ "_meta": {
+  "fails": 0,
+  "alerted": false,
+  "last_error": ""
  }
 }
