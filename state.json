@@ -2,7 +2,9 @@
  "57ce0a39-d035-4f16-a418-bd6108f78199": {
   "net": "2026-10-31T03:48:00Z",
   "status": "Go for Launch",
-  "sent": [],
+  "sent": [
+   "24h"
+  ],
   "live": false,
   "nets": {
    "ll2": "2026-10-31T03:48:00Z"
@@ -25,5 +27,16 @@
   "fails": 0,
   "alerted": false,
   "last_error": ""
+ },
+ "3cdb9dee-b5cb-406c-bbd1-06a219930fb7": {
+  "net": "2026-11-06T02:21:00Z",
+  "status": "Go for Launch",
+  "sent": [],
+  "live": false,
+  "nets": {
+   "ll2": "2026-11-06T02:21:00Z"
+  },
+  "seq": 0,
+  "uid": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7"
  }
 }
