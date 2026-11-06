@@ -2,7 +2,9 @@
  "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae": {
   "net": "2026-11-07T00:46:00Z",
   "status": "Go for Launch",
-  "sent": [],
+  "sent": [
+   "24h"
+  ],
   "live": false,
   "nets": {
    "ll2": "2026-11-07T00:46:00Z"
@@ -36,5 +38,27 @@
   },
   "seq": 1,
   "uid": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178"
+ },
+ "0f867f0c-5422-4d44-93b8-d7faaae7019b": {
+  "net": "2026-11-13T00:00:00Z",
+  "status": "To Be Determined",
+  "sent": [],
+  "live": false,
+  "nets": {
+   "ll2": "2026-11-13T00:00:00Z"
+  },
+  "seq": 0,
+  "uid": "0f867f0c-5422-4d44-93b8-d7faaae7019b"
+ },
+ "76617033-4dc0-4448-b50c-e5b0d5a18539": {
+  "net": "2026-11-13T04:23:00Z",
+  "status": "Go for Launch",
+  "sent": [],
+  "live": false,
+  "nets": {
+   "ll2": "2026-11-13T04:23:00Z"
+  },
+  "seq": 0,
+  "uid": "76617033-4dc0-4448-b50c-e5b0d5a18539"
  }
 }
