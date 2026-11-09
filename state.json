@@ -1,17 +1,4 @@
 {
- "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae": {
-  "net": "2026-11-07T00:48:42Z",
-  "status": "Launch in Flight",
-  "sent": [
-   "24h"
-  ],
-  "live": false,
-  "nets": {
-   "ll2": "2026-11-07T00:48:42Z"
-  },
-  "seq": 4,
-  "uid": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae"
- },
  "_meta": {
   "fails": 0,
   "alerted": false,
@@ -20,7 +7,9 @@
  "6aa7b90b-e5ed-45d8-a52e-04fbf399d178": {
   "net": "2026-11-10T03:03:00Z",
   "status": "Go for Launch",
-  "sent": [],
+  "sent": [
+   "24h"
+  ],
   "live": false,
   "nets": {
    "ll2": "2026-11-10T03:03:00Z"
