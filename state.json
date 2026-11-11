@@ -7,7 +7,9 @@
  "6aa7b90b-e5ed-45d8-a52e-04fbf399d178": {
   "net": "2026-11-12T02:35:00Z",
   "status": "Go for Launch",
-  "sent": [],
+  "sent": [
+   "24h"
+  ],
   "live": false,
   "nets": {
    "ll2": "2026-11-12T02:35:00Z"
