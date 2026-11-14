@@ -4,19 +4,6 @@
   "alerted": false,
   "last_error": ""
  },
- "6aa7b90b-e5ed-45d8-a52e-04fbf399d178": {
-  "net": "2026-11-12T04:36:30Z",
-  "status": "Go for Launch",
-  "sent": [
-   "24h"
-  ],
-  "live": false,
-  "nets": {
-   "ll2": "2026-11-12T04:36:30Z"
-  },
-  "seq": 4,
-  "uid": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178"
- },
  "0f867f0c-5422-4d44-93b8-d7faaae7019b": {
   "net": "2026-11-13T22:47:36Z",
   "status": "Launch in Flight",
