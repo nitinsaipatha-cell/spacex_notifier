@@ -4,19 +4,6 @@
   "alerted": false,
   "last_error": ""
  },
- "76617033-4dc0-4448-b50c-e5b0d5a18539": {
-  "net": "2026-11-21T04:20:35Z",
-  "status": "Go for Launch",
-  "sent": [
-   "24h"
-  ],
-  "live": false,
-  "nets": {
-   "ll2": "2026-11-21T04:20:35Z"
-  },
-  "seq": 8,
-  "uid": "76617033-4dc0-4448-b50c-e5b0d5a18539"
- },
  "460d9db7-eaf6-4cd9-b095-cff433534c09": {
   "net": "2026-11-24T15:55:00Z",
   "status": "Go for Launch",
