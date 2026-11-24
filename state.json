@@ -17,19 +17,6 @@
   "seq": 3,
   "uid": "460d9db7-eaf6-4cd9-b095-cff433534c09"
  },
- "951a341f-236b-42fe-a667-4ab2fcf36eac": {
-  "net": "2026-11-22T12:23:56Z",
-  "status": "Go for Launch",
-  "sent": [
-   "24h"
-  ],
-  "live": false,
-  "nets": {
-   "ll2": "2026-11-22T12:23:56Z"
-  },
-  "seq": 2,
-  "uid": "951a341f-236b-42fe-a667-4ab2fcf36eac"
- },
  "b0d27def-0a88-44c3-a947-1fd5b8503e2c": {
   "net": "2026-11-29T04:39:00Z",
   "status": "Go for Launch",
@@ -42,12 +29,12 @@
   "uid": "b0d27def-0a88-44c3-a947-1fd5b8503e2c"
  },
  "d74afbc7-0de5-491c-be05-4e9c31f736ac": {
-  "net": "2026-11-29T15:50:00Z",
+  "net": "2026-11-29T15:47:00Z",
   "status": "Go for Launch",
   "sent": [],
   "live": false,
   "nets": {
-   "ll2": "2026-11-29T15:50:00Z"
+   "ll2": "2026-11-29T15:47:00Z"
   },
   "seq": 0,
   "uid": "d74afbc7-0de5-491c-be05-4e9c31f736ac"
